@@ -285,4 +285,4 @@ sns.boxplot(x='sepal_width',data=delid)
 ![image](https://github.com/user-attachments/assets/6692d4f9-23ea-4003-86c2-3aa435c66b8f)
 
 # Result
-          <<include your Result here>>
+     Thus the data cleaning process on the given dataset is executed successfully.
