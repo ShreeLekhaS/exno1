@@ -22,6 +22,9 @@ STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
 ```
+#Data Cleaning
+#Handling null values
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -42,16 +45,19 @@ df.notnull()
 ![image](https://github.com/user-attachments/assets/5086f870-2046-4a74-bd55-a68b20f5051d)
 
 ```
+#column
 df.dropna(axis=1)
 ```
 ![image](https://github.com/user-attachments/assets/5f37b026-3f2f-41fe-8e00-b7de629e3f88)
 
 ```
+#row
 df.dropna(axis=0)
 ```
 ![image](https://github.com/user-attachments/assets/a0c225d9-9004-4d13-b705-589e32e2ed55)
 
 ```
+#Filtering/Selecting values with conditions
 dfs=df[df['TOTAL']>270]
 dfs
 ```
@@ -76,6 +82,7 @@ df.iloc[[1,3,5],[1,3]]
 ```
 ![image](https://github.com/user-attachments/assets/8a361af7-45d7-441f-bbd0-b8cc18210482)
 ```
+#FILLING NULL VALUES
 df
 ```
 ![image](https://github.com/user-attachments/assets/cf09708a-15ab-420e-9243-b9868be4907c)
@@ -99,6 +106,7 @@ df.bfill()
 ```
 ![image](https://github.com/user-attachments/assets/f1ce19c7-ed25-4952-9a1b-c7dc8a4da802)
 ```
+#Modify the original Datas in dataset by filling missing values using mean()
 df['TOTAL'] = df['TOTAL'].fillna(value=df['TOTAL'].mean())
 df
 ```
@@ -106,6 +114,8 @@ df
 
 
 ```
+#Inter Quartile Range
+
 import pandas as pd
 import seaborn as sns
 import numpy as np
@@ -183,6 +193,8 @@ sns.scatterplot(data=af)
 ![image](https://github.com/user-attachments/assets/f5724794-1a66-47eb-8281-aec4dda46513)
 
 ```
+#Z score
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
