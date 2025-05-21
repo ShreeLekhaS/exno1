@@ -29,7 +29,8 @@ import matplotlib.pyplot as plt
 df=pd.read_csv("sample.csv")
 df
 ```
-![image](https://github.com/user-attachments/assets/d3b5180d-7d64-4c16-93af-5aedbaf6f6b1)
+![image](https://github.com/user-attachments/assets/05537c3d-265e-422d-baf8-676c15f525f3)
+
 
 
 
