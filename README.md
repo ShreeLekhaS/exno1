@@ -1,3 +1,5 @@
+## Name: Shree Lekha.S
+## Register No.:212223110052
 # Exno:1
 Data Cleaning Process
 
