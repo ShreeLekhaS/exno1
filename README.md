@@ -21,14 +21,14 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-'''
+```
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
 df=pd.read_csv("sample.csv")
 df
-'''
+```
 ![image](https://github.com/user-attachments/assets/d3b5180d-7d64-4c16-93af-5aedbaf6f6b1)
 
 
